@@ -1,0 +1,47 @@
+.header-top {
+    background-color: var(--yellow);
+    height: 100vh;
+    width: 100%;
+}
+
+.vHeading {
+    width: 10%;
+    height: 100%;
+    padding-top: 525px;
+    position: relative;
+    float: left;
+    left: 150px;
+}
+
+.vHeading h1 {
+    font-size: 75px;
+    transform: rotate(270deg);
+    white-space: nowrap;
+}
+
+.photo-wrapper {
+    background: url('../assets/images/test-heading-PS.png') center no-repeat;
+    background-size: 65%;
+    height: 100vh;
+    width: 50%;
+    position: relative;
+    float: right;
+}
+
+.header-bottom {
+    background-color: var(--yellow);
+    height: 50vh;
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 10%, 20% 100%, 0 50%);
+}
+
+/************************* MEDIA QUERIES ***************************/
+
+/******* i-Phone X *******/
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .header-bottom {margin-top: -2px;}
+}

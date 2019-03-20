@@ -1,0 +1,23 @@
+.paraX {
+    min-height: 500px;
+    background-attachment: fixed !important;
+    background: no-repeat;
+    background-size: cover !important;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+#pX1 {
+    background-image: url("../assets/images/testbackground.jpg");
+    margin-top: -50vh;
+}
+
+#pX2 {
+    background-image: url("../assets/images/testbg2.jpg");
+}
+
+#pX3 {
+    background-image: url("../assets/images/testbg3.jpg");
+}
