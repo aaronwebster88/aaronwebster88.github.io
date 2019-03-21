@@ -1,0 +1,55 @@
+.col-8 {
+    background-color: var(--yellow);
+ 
+}
+
+.hSC {
+    position: relative;
+}
+
+.hsContainer {
+    position: relative;
+}
+
+.headShot {
+    position: relative;
+    width: 33vw;
+    height: auto;
+    margin-left: -1em;
+}
+
+.txtBlrb {
+    font-size: 12px;
+    position: relative;
+    width: 60%;
+    font-family: 'Exo', sans-serif;
+}
+
+.txtBlrb p {
+    position: relative;
+    top: 8em;
+    text-align: justify;
+    text-align-last: left;
+    font-family: 'Exo', sans-serif;
+}
+
+.socialBtns {
+    position: absolute;
+    z-index: 1;
+    top: 80%;
+    margin-left: 80%;
+    font-size: 35px;
+    color: var(--darkblue);
+}
+
+.socialBtns a:hover {
+    color: var(--blue);
+    transition-duration: 333ms;
+}
+
+.socialBtns a{
+    color: inherit;
+    text-decoration: none;
+}
+
+

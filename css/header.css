@@ -2,26 +2,59 @@
     background-color: var(--yellow);
     height: 100vh;
     width: 100%;
+    margin-top: -37em;
 }
 
 .vHeading {
     width: 10%;
     height: 100%;
-    padding-top: 525px;
+    padding-top: 22em;
     position: relative;
     float: left;
-    left: 150px;
+    left: 15em;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
 }
 
 .vHeading h1 {
-    font-size: 75px;
+    font-size: 90px;
     transform: rotate(270deg);
-    white-space: nowrap;
+    font-family: 'Oswald', sans-serif;
+}
+
+.lastName {
+    font-size: 110px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.line-wrapper {
+  z-index: 1000;
+  position: relative;
+  left: 50em;
+  overflow: hidden;
+}
+
+.line {
+    width: 2px;
+    position: relative;
+    margin-left: .2em;
+    display: inline-block;
+}
+
+#line1 {
+    background-color: #333333;
+    height: 35em;
+    margin-bottom: 5em;
+}
+
+#line2 {
+    background-color: #333;
+    height: 40em;
 }
 
 .photo-wrapper {
-    background: url('../assets/images/test-heading-PS.png') center no-repeat;
-    background-size: 65%;
+    background: url('../assets/images/profile.png') center no-repeat;
+    background-size: cover;
     height: 100vh;
     width: 50%;
     position: relative;
@@ -34,6 +67,9 @@
     width: 100%;
     clip-path: polygon(0 0, 100% 0, 100% 10%, 20% 100%, 0 50%);
 }
+
+
+
 
 /************************* MEDIA QUERIES ***************************/
 

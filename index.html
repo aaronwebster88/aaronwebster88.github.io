@@ -11,35 +11,41 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--------------------------------- FONTS --------------------------------------------->
-
+    <link href="https://fonts.googleapis.com/css?family=Exo|Oswald|Roboto+Condensed" rel="stylesheet">
     <!---------------------------------- CSS ---------------------------------------------->
     <link rel="stylesheet" href="css/main.css">
+    <!---------------------------------- ICONS ---------------------------------------------->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.0/css/all.css"
+        integrity="sha384-/pOR6TNYPdUaQQQRKQ4XHznZ4U2K/Lscb3u6jshUngC/31fLTuyX9FZb24gp4O3J" crossorigin="anonymous">
 </head>
 
 <body>
 
     <!---------------------------------- NAVBAR ------------------------------------------->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">WEBSITE</a>
+        <a class="navbar-brand" href="#" style="color: #f3c130;">PORTFOLIO</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">HOME <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#project-landing">PROJECTS</a>
-                <a class="nav-item nav-link" href="#about-landing">ABOUT</a>
-                <a class="nav-item nav-link" href="#contact-landing">CONTACT</a>
+                <a class="nav-item nav-link active" href="#" style="color: #f3c130;">HOME <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#project-landing" style="color: #f3c130;">PROJECTS</a>
+                <a class="nav-item nav-link" href="#about-landing" style="color: #f3c130;">ABOUT</a>
+                <a class="nav-item nav-link" href="#contact-landing" style="color: #f3c130;">CONTACT</a>
             </div>
         </div>
     </nav>
     <!---------------------------------- HEADER ------------------------------------------->
+    <div class="line-wrapper">
+        <div class="line" id="line1"></div>
+        <div class="line" id="line2"></div>
+    </div>
     <header class="header-top">
         <div class="vHeading">
-            <h1>R. Aaron Webster</h1>
+            <h1>R.Aaron <span class="lastName">Webster</span></h1>
         </div>
-        <span></span>
         <div class="photo-wrapper"></div>
     </header>
     <header class="header-bottom"></header>
@@ -50,12 +56,28 @@
     <!--------------------------------- PROJECTS ------------------------------------------>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-6 projectP" >
-                PHOTO
+            <div class="col-6 photoL" id="spaceXP">
+                <div class="titleL">
+                    <h2>SPACE X API</h2>
+                </div>
+                <a href="https://raw-spacex-api.firebaseapp.com/" target="_blank">
+                    <div class="linkBtnL">
+                        <h5><i class="far fa-link"></i></h5>
+                    </div>
+                </a>
+                <div class="imgholderL">
+                    <img class="imgL" id="img1" src="./assets/images/img/falcon-1-header.png" alt="">
+                </div>
             </div>
-            <div class="col-6 projectC" >
-                <h2>SPACE X API</h2>
-                <p>Sample Text will go here you doofus.</p>
+            <div class="col-6">
+                <div class="contentL">
+                    <h2>API Challenge</h2>
+                    <br>
+                    <br>
+                    <p>
+                        A demonstration of API knowledge, usage, and deployment.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -63,65 +85,142 @@
     <div class="jumbotron jumbotron-fluid paraX" id="pX2"></div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-6 projectC">
-                <h2>TUTORIAL WEBPAGE</h2>
-                <p>Sample Text will go here you doofus.</p>
+            <div class="col-6">
+                <div class="contentR">
+                    <h2>Tutorial Website</h2>
+                    <br>
+                    <br>
+                    <p>
+                        A demonstration of basic HTML, CSS, and AnimateCSS.
+                    </p>
+                </div>
             </div>
-            <div class="col-6 projectP">
-                PHOTO
+            <div class="col-6 photoL" id="spaceXP">
+                <div class="titleR">
+                    <h2>WEBPAGE</h2>
+                </div>
+                <a href="https://aaronwebster88.github.io/TutorialWebpage/" target="_blank">
+                    <div class="linkBtnR">
+                        <h5><i class="far fa-link"></i></h5>
+                    </div>
+                </a>
+                <div class="imgholderL">
+                    <img class="imgR" id="img2" src="./assets/images/img/steve_brule.png" alt="">
+                </div>
             </div>
         </div>
     </div>
-    <div id="about-landing"></div>
     <!-- Third Parallax Section -->
     <div class="jumbotron jumbotron-fluid paraX" id="pX3"></div>
+    <div class="row">
+            <div class="col-6 photoL">
+                <div class="titleL" id="title3">
+                    <h2>&nbsp;&nbsp;CREATURE&nbsp;&nbsp;</h2>
+                </div>
+                <a href="https://codepen.io/aaronwebster88/full/KEGxzN" target="_blank">
+                    <div class="linkBtnL">
+                        <h5><i class="far fa-link"></i></h5>
+                    </div>
+                </a>
+                <div class="imgholderL">
+                    <img class="imgL" id="img3" src="./assets/images/img/css-creat.png" alt="">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="contentL">
+                    <h2>CSS Creature</h2>
+                    <br>
+                    <br>
+                    <p>
+                        A demonstration of CSS knowledge and creativity.
+                    </p>
+                </div>
+            </div>
+        </div>
+    <!-- Fourth Parallax Section -->
+    <div id="about-landing"></div>
+    <div class="jumbotron jumbotron-fluid paraX" id="pX4"></div>
     <!---------------------------------- ABOUT -------------------------------------------->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12">
-                ABOUT CONTENT PLACE HOLDER DOOFUS
+            <div class="col-4 hSC">
+                <div class="hsContainer">
+                    <img class="headShot" src="./assets/images/headshot.png" alt="">
+                </div>
             </div>
+            <div class="col-8">
+                <div class="txtBlrb">
+                    <p>
+                        R. Aaron Webster is an aspiring Web Developer and Designer.
+                        <br>
+                        <br>
+                        Previously a Gaffer and Lighting Designer, he is drawn to the audacity of humanity; unveiling connections and commonality through design and creativity.<br><br>
+                        A graduate of Ball State University Aaron holds an BFA in Film Production, as well as a MFA in Digital Storytelling.
+                        <br>
+                        <br>
+                        Aaron has lensed and lit numerous films including LEFT HAND, directed by Skyler Lawson & FOLLOW THE ROSES; starring Olivia Cooke, directed by Jen Steele. 
+                        <br>
+                        <br>
+                        Aaron currently lives and works in Indianapolis. 
+                        <br>
+                    </p>
+                </div>
+                <div class="socialBtns">
+                    <a href="https://www.linkedin.com/in/raaronwebster/" target="_blank" title="LinkedIn">
+                        <i class="social fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/aaronwebster88" target="_blank" title="GitHub">
+                        <i class="social fab fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/raaronwebster88/" target="_blank" title="Instagram">
+                        <i class="social fab fa-instagram"></i>
+                    </a>
+                    <a href="" target="_blank" title="Resume">    
+                        <i class="social fas fa-file"></i>
+                    </a>
+                </div>
+            </div>
+           
         </div>
     </div>
     <!--------------------------------- CONTACT ------------------------------------------->
-   <div id="contact-landing"></div>
+    <div id="contact-landing"></div>
     <section id="contact">
         <div class="container">
             <br>
             <br>
-            <h2 class="text-center text-uppercase">Contact Me</h2>
+            <h2 class="text-center text-uppercase" id="contTitle">Contact</h2>
             <div class="row">
                 <div class="col-12">
-                    <form action="https://formspree.io/maynard.zach23@gmail.com" method="POST">
+                    <form action="https://formspree.io/aaronwebster88@gmail.com" method="POST">
                         <div class="control-group">
                             <div class="form-group">
-                                <label>Name</label>
                                 <input type="text" class="form-control" placeholder="Your Name" id="name" required
-                                    data-validation-required-message="Please enter your name" name="name">
+                                    data-validation-required-message="Please enter your name!" name="name">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="control-group">
                             <div class="form-group">
-                                <label>Email Address</label>
                                 <input type="email" class="form-control" placeholder="Your Email" id="email" required
-                                    data-validation-required-message="Please enter your email" name="_replyto">
+                                    data-validation-required-message="Please enter your email!" name="_replyto">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="control-group">
                             <div class="form-group">
                                 <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
-                                    data-validation-required-message="Please leave a message" name="message"></textarea>
+                                    data-validation-required-message="Please leave a message!" name="message"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="text-center">
                             <div id="success"></div>
                             <button type="submit" class="btn btn-lg btn-black">
-                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                                Send Message
+                                    <i class="submitBtn fas fa-paper-plane"></i>
                             </button>
+                            <br>
+                            <br>
                         </div>
                     </form>
                 </div>
@@ -131,8 +230,8 @@
     <!---------------------------------- FOOTER ------------------------------------------->
     <footer>
         <h6>R. Aaron Webster</h6>
-        <h6>E - aaronwebster88@gmail.com</h6>
-        <h6>P - 765.376.1674</h6>
+        <h6><i class="fal fa-envelope"></i> aaronwebster88@gmail.com</h6>
+        <h6><i class="fal fa-mobile"></i> 765.376.1674</h6>
     </footer>
     <!--------------------------------  JAVASCRIPT ---------------------------------------->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

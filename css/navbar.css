@@ -1,0 +1,9 @@
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover {
+    color: var(--lgray) !important;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item {
+    font-family: 'Roboto Condensed', sans-serif;
+}

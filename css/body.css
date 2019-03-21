@@ -10,14 +10,22 @@
 }
 
 #pX1 {
-    background-image: url("../assets/images/testbackground.jpg");
+    background-image: url("../assets/images/bg/geo-bg2.png");
     margin-top: -50vh;
+
 }
 
 #pX2 {
-    background-image: url("../assets/images/testbg2.jpg");
+    background-image: url("../assets/images/bg/geo-bg2.png");
+    background-position: center;
 }
 
 #pX3 {
-    background-image: url("../assets/images/testbg3.jpg");
+    background-image: url("../assets/images/bg/geo-bg4.png");
+    background-position: bottom;
+}
+
+#pX4 {
+    background-image: url("../assets/images/bg/geo-bg1.png");
+    min-height: 250px;
 }

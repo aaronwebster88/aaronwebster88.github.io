@@ -1,3 +1,148 @@
-.projectP {
+.photoL {
     background-color: var(--darkblue);
+    position: relative;
+}
+
+.titleL {
+    position: absolute;
+    transform: rotate(270deg);
+    z-index: 1;
+    top: 11em;
+    margin-left: -8em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.titleR {
+    position: absolute;
+    transform: rotate(270deg);
+    z-index: 1;
+    top: 11em;
+    margin-left: 28em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.titleL h2 {
+    font-size: 5em;
+    text-align: center;
+    color: var(--yellow);
+}
+
+.titleR h2 {
+    font-size: 5em;
+    text-align: center;
+    color: var(--yellow);
+}
+
+.imgholderL {
+    position: relative;
+}
+
+.imgL {
+    position: relative;
+    width: 50vw;
+}
+
+.imgR {
+    position: relative;
+    width: 50vw;
+}
+
+#img1 {
+    right: 20px;
+}
+
+#img2 {
+    right: 20px;
+}
+
+.contentL {
+    text-align: right;
+    position: relative;
+    left: -1em;
+    top: 30%;
+}
+
+.contentR {
+    text-align: left;
+    position: relative;
+    top: 30%;
+}
+
+.contentL h2 {
+    font-size: 3em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.contentR h2 {
+    font-size: 3em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.contentL p {
+    font-size: 12px;
+    position: relative;
+    float: right;
+    height: 40%;
+    width: 60%;
+    font-family: 'Exo', sans-serif;
+}
+
+.contentR p {
+    font-size: 12px;
+    position: relative;
+    float: left;
+    height: 40%;
+    width: 60%;
+    font-family: 'Exo', sans-serif;
+}
+
+.linkBtnL {
+    background-color: var(--yellow);
+    text-decoration: none;
+    border-radius: 100%;
+    width: 4em;
+    height: 4em;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    left: 90%;
+}
+
+.linkBtnR {
+    background-color: var(--yellow);
+    text-decoration: none;
+    border-radius: 100%;
+    width: 4em;
+    height: 4em;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    margin-left: -.5em;
+}
+
+.linkBtnL h5 {
+    position: relative;
+    text-align: center;
+    top: 1em;
+    color: var(--black);
+}
+
+.linkBtnR h5 {
+    position: relative;
+    text-align: center;
+    top: 1em;
+    color: var(--black);
+    
+}
+
+.linkBtnL:hover {
+    background-color: var(--darkblue);
+    transition-duration: 333ms;
+}
+
+.linkBtnR:hover {
+    background-color: var(--darkblue);
+    transition-duration: 333ms;
 }

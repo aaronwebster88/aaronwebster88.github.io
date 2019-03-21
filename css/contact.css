@@ -1,3 +1,13 @@
 #contact{
-    background-color: var(--dgray);
+    background-color: var(--darkblue);
+}
+
+#contTitle {
+    color: var(--yellow);
+    font-family: 'Oswald', sans-serif;
+}
+
+.submitBtn {
+    color: var(--yellow);
+    z-index: 3;
 }
